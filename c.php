@@ -1,5 +1,6 @@
 <?php
 
+
 $conecta = mysqli_connect ('localhost', 'root', '', 'mascota') or die (mysql_error($mysqli));
 
 insertar($conecta);
@@ -13,12 +14,10 @@ function insertar ($conecta){
     $nombrecientifico = $_POST['nombrecientifico'];
 
 
-    $consulta = "INSERT TO INTO animales(nombre, edad, nombrecientifico)
+    $consulta = "INSERT TO INTO animales(id,nombre, edad, nombrecientifico)
     VALUES  ( '$id','$nombre', '$edad', '$nombrecientifico')";
 
     mysqli_query($conecta, $consulta);
     mysqli_close($conecta);
 
 }
-
-?>
