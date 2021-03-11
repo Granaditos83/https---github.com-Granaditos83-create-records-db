@@ -1,23 +1,35 @@
+
+
 <?php
+    
+    $id = $_REQUEST['id'];
+    $nombre = $_REQUEST['nombre'];
+    $edad = $_REQUEST['edad'];
+    $nombrecientifico = $_REQUEST['nombrecientifico'];
 
+     
+    $host = "localhost";
+    $dbname ="mascota";
+    $username ="root";
+    $password ="";
 
-$conecta = mysqli_connect ('localhost', 'root', '', 'mascota') or die (mysql_error($mysqli));
+    $cnx = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    
+    /*contruir la sentencia */
+    $sql = "INSERT INTO animales (id,nombre, edad, nombrecientifico) VALUES  ( '$id','$nombre', '$edad', '$nombrecientifico')";
+    
+    /*preparar la sentencia */
+    $q = $cnx -> prepare ($sql);
 
-insertar($conecta);
+    /*ejecutar la sentencia sql*/
+    $result = $q -> execute();
+    if ($result) {
+        echo
+        "El animal fue gurdado con exito";
+    } 
+        else{
+            echo"se ha producido un error";
+        }
+    
 
-
-function insertar ($conecta){
-
-    $id = $_POST['id'];
-    $nombre = $_POST['nombre'];
-    $edad = $_POST['edad'];
-    $nombrecientifico = $_POST['nombrecientifico'];
-
-
-    $consulta = "INSERT TO INTO animales(id,nombre, edad, nombrecientifico)
-    VALUES  ( '$id','$nombre', '$edad', '$nombrecientifico')";
-
-    mysqli_query($conecta, $consulta);
-    mysqli_close($conecta);
-
-}
+?>
