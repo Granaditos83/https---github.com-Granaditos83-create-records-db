@@ -1,89 +1,37 @@
-p{color:  hsl(298, 100%, 51%); font-size: 30px; font-family: 'Open Sans', sans-serif;
-    font-family: 'Rancho', cursive;}
-
-span{
-    
-  color: rgb(236, 8, 198);font-size: 150px;
-}   
-
-/*p span{
-    color: #0a0a0a;
-}*/
-
-h1{color: rgb(247, 5, 255);font-size: 150px; font-family: 'Open Sans', sans-serif;
-    font-family: 'Rancho', cursive; 
-    border-radius: 20px;
-    border: 4px solid #e212c6;
-    background: -webkit-linear-gradient(to right, rgba(224, 9, 224, 0.78), rgba(255, 0, 255, 0.769), #f275f786),url("patitas.jpg");  
-    background: linear-gradient(to right, rgba(224, 77, 32, 0.171), rgba(13, 54, 238, 0.192), rgba(240, 217, 8, 0.288)),url("patitas.jpg");  }
-
 
 h2{
-    color: rgb(247, 5, 255);font-size: 50px; font-family: 'Open Sans', sans-serif;
+    color: rgb(247, 5, 255);font-size: 60px; font-family: 'Open Sans', sans-serif;
     font-family: 'Rancho', cursive; 
     border-radius: 15px;
     border: 4px solid #e212c6;
     background: -webkit-linear-gradient(to right, rgba(224, 9, 224, 0.78), rgba(255, 0, 255, 0.769), #f275f786),url("patitas.jpg");  
     background: linear-gradient(to right, rgba(224, 77, 32, 0.171), rgba(13, 54, 238, 0.192), rgba(240, 217, 8, 0.288)),url("patitas.jpg");  }
 
-    
-
-
-
-h3{
-    color: #030303;font-size: 70px; font-family: 'Open Sans', sans-serif;
-    font-family: 'Rancho', cursive;
-
-}
-
-button{
-  
-    border-radius: 20px;
-    border: 2px solid #0823f0;
-    background: -webkit-linear-gradient(to right, #e009e0c7, #ff00ffc4, #db40e086),url("patitas.jpg");  
-    background: linear-gradient(to right, #e04d206b, #0d36eecc, #f0d80881),url("patitas.jpg"); 
-}
-
-body label{
+body {
   
     background: #7eeee3a4;  
     background: -webkit-linear-gradient(to right, rgba(224, 9, 224, 0.781), #ff00ffc4, rgba(219, 64, 224, 0.527)),url("patitas.jpg");  
     background: linear-gradient(to right, rgba(32, 224, 215, 0.418), rgba(241, 21, 223, 0.575), rgba(79, 216, 16, 0.342)),url("patitas.jpg"); 
 
-
 }
 
-ul{
+p{
     color: rgb(248, 4, 248);font-size: 50px; font-family: 'Open Sans', sans-serif;
     font-family: 'Rancho', cursive;
     
 }
-li{
-    color: rgb(255, 0, 200);font-size: 50px; font-family: 'Open Sans', sans-serif;
-    font-family: 'Rancho', cursive;
 
-}
-a{
-    color: #07f1f1;font-size: 50px; font-family: 'Open Sans', sans-serif;
-    font-family: 'Rancho', cursive;
-
-}
 img{
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 
 }
-label{
+
+
+form{
     color: #07f1f1;font-size: 0px; font-family: 'Open Sans', sans-serif;
     font-family: 'Rancho', cursive;
-    
 }
 
-
-center{
-    border-radius: 20px;
-    border: 2px solid #0823f0;
-    background: -webkit-linear-gradient(to right, #e009e0c7, #ff00ffc4, #db40e086),url("patitas.jpg");  
-    background: linear-gradient(to right, #e04d206b, #0d36eecc, #f0d80881),url("patitas.jpg");
-
+img{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
-
