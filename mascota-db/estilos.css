@@ -35,3 +35,14 @@ form{
 img{
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
+
+h3{
+    color: rgb(238, 20, 238);font-size: 60px; font-family: 'Open Sans', sans-serif;
+    font-family: 'Rancho', cursive; 
+    border-radius: 15px;
+    border: 4px solid #e212c6;
+    background: -webkit-linear-gradient(to right, rgba(224, 9, 224, 0.78), rgba(255, 0, 255, 0.769), #f275f786),url("patitas.jpg");  
+    background: linear-gradient(to right, rgba(224, 77, 32, 0.171), rgba(13, 54, 238, 0.192), rgba(240, 217, 8, 0.288)),url("patitas.jpg");  }
+
+
+}
