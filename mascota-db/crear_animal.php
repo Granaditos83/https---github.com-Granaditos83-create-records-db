@@ -14,7 +14,7 @@
 <body>
   <h2>Registration Form</h2> 
     
-      <form action="c.php" method="post" >
+      <form action="c.php" method="post">
 
         <img alt="alt"
         src="https://www.infobae.com/new-resizer/g-nl_hV_iywneW_Pdsm-JwXu5Wc=/1024x512/filters:format(jpg):quality(85)//s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/11/30152236/Perros-vs-Gatos2.jpg"
@@ -42,16 +42,3 @@
   
    </body>
 </center>
-
-  
-
-
-  
-     
-    
-
-     
-          
-    
-  
-    

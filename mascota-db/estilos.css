@@ -10,7 +10,7 @@ h2{
 body {
   
     background: #7eeee3a4;  
-    background: -webkit-linear-gradient(to right, rgba(224, 9, 224, 0.781), #ff00ffc4, rgba(219, 64, 224, 0.527)),url("patitas.jpg");  
+    background: -webkit-linear-gradient(to right, rgba(245, 183, 245, 0.781), #ff00ffc4, rgba(219, 64, 224, 0.527)),url("patitas.jpg");  
     background: linear-gradient(to right, rgba(32, 224, 215, 0.418), rgba(241, 21, 223, 0.575), rgba(79, 216, 16, 0.342)),url("patitas.jpg"); 
 
 }
