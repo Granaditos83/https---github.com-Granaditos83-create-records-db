@@ -24,6 +24,7 @@
         
 <span>
     
+    
     <input type="text" name="nombre"placeholder="Name" required>
    
     <input type="int" name="edad"placeholder="Age" required>
@@ -35,6 +36,8 @@
    <p><input type="submit" name="enviar" value="Send data"/></p>
     
 </span>
+
+
     
 
     </form>
