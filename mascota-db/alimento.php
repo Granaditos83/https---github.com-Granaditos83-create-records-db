@@ -2,7 +2,7 @@
     
     $id = $_REQUEST['id'];
     $referencia = $_REQUEST['referencia'];
-    $nombre_referencia = $_REQUEST['$nombre_referencia'];
+    $nombre_referencia = $_REQUEST['nombre_referencia'];
     $hora_suministro = $_REQUEST['hora_suministro'];
 
      

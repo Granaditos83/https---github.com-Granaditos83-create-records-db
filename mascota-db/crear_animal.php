@@ -23,6 +23,7 @@
 
         
 <span>
+
     
     
     <input type="text" name="nombre"placeholder="Name" required>
@@ -30,6 +31,9 @@
     <input type="int" name="edad"placeholder="Age" required>
     
     <input type="text" name="nombrecientifico"placeholder="scientific name"required>
+
+    <input type="radio" name= "gender" value= "0"/> Hembra
+    <input type="radio" name= "gender" value= "1"/> Macho
 
   
 
