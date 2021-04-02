@@ -40,8 +40,8 @@
 
 <input type="date_time_set" list="hora_suministro" name="hora_suministro"placeholder="Schedule to supply"required />
 <datalist id="hora_suministro">
-    <option label="10:00" value="10:00">
-    <option label="15:00" value="15:00">
+    <option label="2020-5-6 13:11:05" value="2020-5-6 13:11:05">
+    <option label="2020-5-6 02:11:05" value="2020-5-6 02:11:05">
 </datalist>
 
 
