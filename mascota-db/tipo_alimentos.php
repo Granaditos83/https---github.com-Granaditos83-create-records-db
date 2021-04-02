@@ -30,12 +30,14 @@
 <datalist id="referencia">
     <option label="1010" value="1010">
     <option label="1111" value="1111">
+    <option label="1212" value="1212">
 </datalist>
 
 <input type="text" list="nombre_referencia" name="nombre_referencia"placeholder="Reference name"required />
 <datalist id="nombre_referencia">
     <option label="Cuidacat" value="Cuidacat">
     <option label="dowchaut" value="dowchaut">
+    <option label="carne" value="carne">
 </datalist>
 
 <input type="date_time_set" list="hora_suministro" name="hora_suministro"placeholder="Schedule to supply"required />
